@@ -1123,11 +1123,11 @@ figure:focus figcaption {
   }
 }  */
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .slides-text {
-    padding-top: 25px;
+    padding-top: 15%;
   }
-} */
+}
 
 .probootstrap-card {
   margin-bottom: 30px;

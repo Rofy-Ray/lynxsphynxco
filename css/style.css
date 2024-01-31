@@ -1117,14 +1117,8 @@ figure:focus figcaption {
   }
 }
 
-/* @media screen and (max-width: 768px) {
-  .slides-text {
-    padding-top: 150px;
-  }
-}  */
-
 @media screen and (max-width: 480px) {
-  .slides-text {
+  .carousel-text {
     padding-top: 10%;
   }
 }

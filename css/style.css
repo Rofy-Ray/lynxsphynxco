@@ -1089,14 +1089,9 @@ figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  /* padding-top: 200px; */
+  padding-top: 50%;
   max-width: 600px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
 .slides-text h2 {
@@ -1126,11 +1121,11 @@ figure:focus figcaption {
   .slides-text {
     padding-top: 150px;
   }
-} */
+}  */
 
-/* @media screen and (max-width: 600px) {
-  .carousel-text {
-    padding-top: 50px;
+/* @media screen and (max-width: 320px) {
+  .slides-text {
+    padding-top: 25px;
   }
 } */
 

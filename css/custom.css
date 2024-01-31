@@ -32,7 +32,3 @@
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
 }
-
-.col-md-12 {
-  height: 100vh;
-}

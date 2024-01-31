@@ -1125,7 +1125,7 @@ figure:focus figcaption {
 
 @media screen and (max-width: 600px) {
   .slides-text {
-    padding-top: 150px;
+    padding-top: 50px;
   }
 }
 

@@ -1089,9 +1089,14 @@ figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   max-width: 600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .slides-text h2 {
@@ -1117,17 +1122,17 @@ figure:focus figcaption {
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .slides-text {
     padding-top: 150px;
   }
-}
+} */
 
-@media screen and (max-width: 600px) {
-  .slides-text {
+/* @media screen and (max-width: 600px) {
+  .carousel-text {
     padding-top: 50px;
   }
-}
+} */
 
 .probootstrap-card {
   margin-bottom: 30px;

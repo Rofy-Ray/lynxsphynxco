@@ -1,0 +1,34 @@
+/* Your custom css code goes here */
+.slide {
+  position: relative;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.probootstrap-video img {
+  height: 25rem;
+  width: 100%;
+}
+
+.probootstrap-card-media img {
+  height: 15rem;
+}
+
+.proj-thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blackwhite {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}

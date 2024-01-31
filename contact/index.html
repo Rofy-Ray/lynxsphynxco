@@ -1,0 +1,274 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LynxSphynx Co. - CONTACT US</title>
+    <meta name="description" content="LynxSphynx Multimedia Official Website" />
+    <meta
+      name="keywords"
+      content="website design, logo design, business card design, photography, graphic design"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles-merged.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../js/submit.js"></script>
+  </head>
+  <body>
+    <!-- START: header -->
+    <div class="probootstrap-loader"></div>
+
+    <header role="banner" class="probootstrap-header">
+      <div class="container">
+        <a href="/" class="probootstrap-logo"
+          >LynxSphynx Co<span>.</span></a
+        >
+
+        <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li class="active"><a href="/contact/">Contact</a></li>
+          </ul>
+          <ul class="probootstrap-right-nav hidden-xs">
+            <li>
+              <a href="#"><i class="icon-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/rofyray/"
+                ><i class="icon-instagram2"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="extra-text visible-xs">
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Remember</h5>
+            <p>Give Time, Time!</p>
+            <h5>Connect</h5>
+            <ul class="social-buttons">
+              <li>
+                <a href="https://twitter.com/rofy_ray"
+                  ><i class="icon-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rofyray/"
+                  ><i class="icon-instagram2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END: header -->
+
+    <section class="probootstrap-slider flexslider">
+      <ul class="slides">
+        <li style="background-image: url(../img/contact_back.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <div class="slides-text probootstrap-animate">
+                  <h2>Contact</h2>
+                  <p>Talk To Us Today</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- END: slider  -->
+
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div id="formResponse"></div>
+            <form
+              id="contactForm"
+              method="post"
+              class="probootstrap-form mb60"
+              action="https://api.staticforms.xyz/submit"
+            >
+              <div class="row">
+                <input
+                  type="hidden"
+                  name="accessKey"
+                  value="7553e180-7674-4ffd-8ace-bf4791fdded3"
+                />
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fname"
+                      name="$first-Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lname"
+                      name="$last-Name"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="hidden"
+                name="subject"
+                value="LynxSphynx Co. Contact Form Message"
+              />
+              <input type="text" name="honeypot" style="display: none" />
+              <input type="hidden" name="replyTo" value="@" />
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="https://drfixed.com/"
+              />
+              <div class="form-group">
+                <input
+                  type="submit"
+                  class="btn btn-primary"
+                  id="submitFormData"
+                  name="submit"
+                  value="Send Message"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 col-md-push-1">
+            <h4>Contact Details</h4>
+            <ul class="with-icon colored">
+              <li>
+                <i class="icon-mail"></i
+                ><span>&nbsp;rofydrfixed@gmail.com</span>
+              </li>
+              <li><i class="icon-phone2"></i><span>+1 (828) 460-5394</span></li>
+            </ul>
+
+            <h4>Our Promise</h4>
+            <p>Leave us a message and we'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="probootstrap-footer">
+      <div class="container">
+        <div class="row mb60">
+          <div class="col-md-6">
+            <div class="probootstrap-footer-widget">
+              <h4 class="heading">About LynxSphynx Co.</h4>
+              <p>
+                We are LynxSphynx Co., a social enterprise that marries
+                technology and social impact. We help deliver a solution with a
+                precision to non-profits & small and medium-sized businesses
+                (SMBs), by providing them with innovative and affordable
+                technology solutions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6" style="text-align: right">
+            <div class="probootstrap-footer-widget probootstrap-link-wrap">
+              <h4 class="heading">Some Partners</h4>
+              <ul class="stack-link">
+                <li>
+                  <a
+                    href="https://www.instagram.com/spreadaid_international?igsh=Z3N2N2o5eHI5YWdh"
+                    target="_blank"
+                    >SpreadAid International</a
+                  >
+                </li>
+                <li>
+                  <a href="https://drfixed.com/" target="_blank">Dr. Fixed</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-md-6">
+            <div class="probootstrap-footer-widget">
+              <p>&copy; 2024 LynxSphynx Co. All Rights Reserved.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="probootstrap-footer-widget right">
+              <ul class="probootstrap-social">
+                <li>
+                  <a href="https://twitter.com/rofy_ray"
+                    ><i class="icon-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/rofyray/"
+                    ><i class="icon-instagram2"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    </div>
+
+    <script src="../js/scripts.min.js"></script>
+    <script src="../js/main.min.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>

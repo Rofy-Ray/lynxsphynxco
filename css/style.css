@@ -1089,7 +1089,7 @@ figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  padding-top: 50%;
+  padding-top: 15%;
   max-width: 600px;
   margin: 0 auto;
 }
